@@ -1,11 +1,11 @@
 {
-  "name": "react-learn",
+  "name": "goit-react-hw-01",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build-github": "vite build --base=/template-react-vite-project/",
+    "build-github": "vite build --base=/goit-react-hw-01/",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -13,6 +13,7 @@
     "push": "node commit.js"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
