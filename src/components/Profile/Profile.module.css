@@ -50,6 +50,7 @@
   gap: 10px;
   padding: 10px;
   width: 33.33%;
+  background-color: #d3d3d3;
 }
 
 .stats li:not(:last-child) {
